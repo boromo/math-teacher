@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Live preview [Math teacher](https://boromo.github.io/math-teacher/public/).
+Live preview [Math teacher](https://boromo.github.io/math-teacher/build/).
 
 ## Available Scripts
 
