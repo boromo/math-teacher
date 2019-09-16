@@ -1,16 +1,12 @@
 {
   "files": {
-    "main.css": "https://boromo.github.io/math-teacher/build/static/css/main.3ebf9ad2.chunk.css",
-    "main.js": "https://boromo.github.io/math-teacher/build/static/js/main.7ce3f56a.chunk.js",
-    "main.js.map": "https://boromo.github.io/math-teacher/build/static/js/main.7ce3f56a.chunk.js.map",
-    "runtime~main.js": "https://boromo.github.io/math-teacher/build/static/js/runtime~main.44af5d2b.js",
-    "runtime~main.js.map": "https://boromo.github.io/math-teacher/build/static/js/runtime~main.44af5d2b.js.map",
-    "static/js/2.3cb897b8.chunk.js": "https://boromo.github.io/math-teacher/build/static/js/2.3cb897b8.chunk.js",
-    "static/js/2.3cb897b8.chunk.js.map": "https://boromo.github.io/math-teacher/build/static/js/2.3cb897b8.chunk.js.map",
+    "main.css": "https://boromo.github.io/math-teacher/build/static/css/main.1b2bc1b2.css",
+    "main.js": "https://boromo.github.io/math-teacher/build/static/js/main.20a894bb.js",
+    "main.js.map": "https://boromo.github.io/math-teacher/build/static/js/main.20a894bb.js.map",
     "index.html": "https://boromo.github.io/math-teacher/build/index.html",
-    "precache-manifest.1323cd993724211a47893a513343d9a7.js": "https://boromo.github.io/math-teacher/build/precache-manifest.1323cd993724211a47893a513343d9a7.js",
+    "precache-manifest.08760d74b82766b0591e0a991c66d8e2.js": "https://boromo.github.io/math-teacher/build/precache-manifest.08760d74b82766b0591e0a991c66d8e2.js",
     "service-worker.js": "https://boromo.github.io/math-teacher/build/service-worker.js",
-    "static/css/main.3ebf9ad2.chunk.css.map": "https://boromo.github.io/math-teacher/build/static/css/main.3ebf9ad2.chunk.css.map",
+    "static/css/main.1b2bc1b2.css.map": "https://boromo.github.io/math-teacher/build/static/css/main.1b2bc1b2.css.map",
     "static/media/in-love.png": "https://boromo.github.io/math-teacher/build/static/media/in-love.d033ee85.png",
     "static/media/sad.png": "https://boromo.github.io/math-teacher/build/static/media/sad.8c0b4eb4.png"
   }

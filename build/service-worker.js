@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "https://boromo.github.io/math-teacher/build/precache-manifest.1323cd993724211a47893a513343d9a7.js"
+  "https://boromo.github.io/math-teacher/build/precache-manifest.08760d74b82766b0591e0a991c66d8e2.js"
 );
 
 self.addEventListener('message', (event) => {
