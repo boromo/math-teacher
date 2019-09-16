@@ -1,0 +1,17 @@
+.equation {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  justify-content: center;
+}
+
+.equation > div{
+  padding: 0 5px;
+}
+
+.equation .resultInput {
+  display: flex;
+  max-width: 50px;
+  text-align: center;
+  font-size: inherit;
+}
