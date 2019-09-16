@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Math teacher",
+  "name": "Small math app for first class students",
   "icons": [
     {
       "src": "favicon.ico",
