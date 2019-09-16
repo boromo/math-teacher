@@ -3,30 +3,13 @@ import "./Game.css";
 import { useInput } from './hooks/input';
 import inLove from './assets/in-love.png';
 import sad from './assets/sad.png';
-
-function getRandomEquation() {
-  const operation = Math.random() > 0.5 ? "+" : "-";
-  let result = Math.ceil(Math.random() * 20);
-  let a = Math.ceil(Math.random() * result);
-  let b = result - a;
-  if (operation === "-") {
-    a = result;
-    b = Math.ceil(Math.random() * a);
-    result = a - b;
-  }
-  return {
-    result,
-    a,
-    b,
-    operation
-  };
-}
+import { getRandomEquation } from './utils';
 
 let timeoutID;
 let results = [];
 
 function Game(props) {
-  const { onFinish, steps = 5 } = props;
+  const { onFinish, steps = 5, name } = props;
   const resultInput = React.useRef(null);
   const { value:result, bind:bindResult, reset:resetResult } = useInput('');
   const [state, updateState] = React.useState('game');
@@ -74,20 +57,22 @@ function Game(props) {
       case 'invalid':
         return (
           <div>
-            <img src={sad} />  
+            <h3>{name} pokusaj ponovno</h3>
+            <img className="emoji" src={sad} />  
           </div>
         )
       case 'valid':
         return (
           <div>
-            <img src={inLove} />  
+            <h3>Bravo {name}</h3>
+            <img className="emoji" src={inLove} />
           </div>
         )
       case 'game':
       default:
         return (
-          <form onSubmit={handleSubmit}>
-            <div className="equation">
+          <form onSubmit={handleSubmit} className="equation">
+            <div className="elements">
               <div>{equation.a}</div>
               <div>{equation.operation}</div>
               <div>{equation.b}</div>
